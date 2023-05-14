@@ -103,7 +103,7 @@ box.position.z = 20;
 box.position.x = 1;
 box.position.y = -2;
 
-const roopTexture = loader.load('Purple_Futuristic_3D_Virtual_Reality_Instagram_Post-removebg-preview.png');
+const roopTexture = loader.load('Solana-man.jpg');
 const roop = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
   new THREE.MeshBasicMaterial({map:roopTexture})
