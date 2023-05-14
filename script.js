@@ -103,7 +103,7 @@ box.position.z = 20;
 box.position.x = 1;
 box.position.y = -2;
 
-const roopTexture = loader.load('20221025_085652_clipdrop-relight.jpg');
+const roopTexture = loader.load('Purple_Futuristic_3D_Virtual_Reality_Instagram_Post-removebg-preview.png');
 const roop = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
   new THREE.MeshBasicMaterial({map:roopTexture})
